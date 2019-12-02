@@ -1,13 +1,10 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
+<ion-content padding>
   <div class="ion-padding">
+    <ion-item color="dark">
+      <ion-label>Rest Duration</ion-label>
+      <ion-datetime display-format="mm:ss" placeholder="Tap here" [(ngModel)]="fullTime"></ion-datetime>
+    </ion-item>
+
     <circle-progress (click)="startTime()"
     [percent]="percent"
     [maxPercent]="100"
