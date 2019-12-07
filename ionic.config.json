@@ -1,5 +1,7 @@
 {
   "name": "ccvgUDG09",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
